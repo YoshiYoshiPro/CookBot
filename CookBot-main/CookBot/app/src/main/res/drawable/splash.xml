@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:opacity="opaque"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    　　<!-- 背景色の設定-->
+    <item
+        android:drawable="@color/yellow"/>　
+
+    　　<!-- 表示する画像の設定-->
+    <item
+
+        android:gravity="center"
+        >
+        <bitmap
+            android:gravity="fill"
+            android:src="@drawable/cookbotlogo"/>
+    </item>
+</layer-list>

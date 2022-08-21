@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="3.5"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <EditText
+        android:id="@+id/edit_contents"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginStart="15dp"
+        android:layout_weight="1.5"
+        android:background="#00000000"
+        android:gravity="center"
+        android:hint="例：牛肉"
+        android:inputType="text"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edit_contents2"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginStart="15dp"
+        android:layout_weight="1.5"
+        android:background="#00000000"
+        android:gravity="center"
+        android:hint="例：2021/01/11"
+        android:inputType="date"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/btn_move"
+        android:layout_width="40dp"
+        android:layout_height="70dp"
+        android:layout_weight="0.5"
+        android:background="#00000000"
+        android:contentDescription="@string/move"
+        android:gravity="center_vertical"
+        app:srcCompat="@drawable/ic_baseline_unfold_more_24" />
+    <!--
+    <ImageButton
+        android:id="@+id/btn_del"
+        android:layout_width="40dp"
+        android:layout_height="70dp"
+        android:layout_weight="0.5"
+        android:background="#00000000"
+        android:contentDescription="@string/del"
+        android:gravity="center_vertical"
+        app:srcCompat="@drawable/ic_baseline_close_24" />
+        -->
+
+</LinearLayout>

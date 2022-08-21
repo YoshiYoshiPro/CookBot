@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="3.5"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--
+    <ImageButton
+        android:id="@+id/btn_move"
+        android:layout_width="77dp"
+        android:layout_height="70dp"
+        android:layout_weight="0.5"
+        android:background="#00000000"
+        android:contentDescription="@string/move"
+        android:gravity="center_vertical"
+        app:srcCompat="@drawable/ic_baseline_unfold_more_24" />
+    -->
+    <TextView
+        android:id="@+id/nameList"
+        android:layout_width="336dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2.5"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/btn_del"
+        android:layout_width="40dp"
+        android:layout_height="70dp"
+        android:layout_weight="0.5"
+        android:background="#00000000"
+        android:contentDescription="@string/del"
+        android:gravity="center_vertical"
+        app:srcCompat="@drawable/ic_baseline_close_24" />
+
+</LinearLayout>
