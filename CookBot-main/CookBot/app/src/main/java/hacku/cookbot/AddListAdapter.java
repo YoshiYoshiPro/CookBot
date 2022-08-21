@@ -42,8 +42,6 @@ public class AddListAdapter extends RecyclerView.Adapter<AddListAdapter.SampView
         // MainActivityを取得
         activity = (AddListActivity) parent.getContext();
 
-
-
         // ビューホルダーを生成してreturn
         return new SampViewHolder(view);
     }
@@ -60,10 +58,6 @@ public class AddListAdapter extends RecyclerView.Adapter<AddListAdapter.SampView
        holder.edit_contents2.setText(dateList.get(position));
        System.out.println("dateList.get("+position+")="+dateList.get(position));
        System.out.println("EditText dateList="+dateList.get(position));
-
-
-
-
 
 
         // テキストウォッチャーリスナーが既にあれば削除

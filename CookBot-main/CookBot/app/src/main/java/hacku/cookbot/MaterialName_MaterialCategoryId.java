@@ -2672,7 +2672,7 @@ public class MaterialName_MaterialCategoryId {
 
 
 //この下のprintはMaterialを表示する
-//			System.out.println(datas.getString("categoryName"));
+//System.out.println(datas.getString("categoryName"));
 //ひらがなAPI導入後条件文 2行目変更予定。そのままでもエラーはないはず
 //追記：ひらがな導入時に2行目の右側も特定の値に変更すること。
             if(((datas.getString("categoryName")).equals(this.materialName))||

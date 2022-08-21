@@ -49,8 +49,8 @@ public class MainActivity_CheckBox_1 extends Activity {
             public void onClick(View v) {
 
                 AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(MainActivity_CheckBox_1.this);
-                // AlertDialogのタイトル設定します
 
+                // AlertDialogのタイトル設定します
                 alertDialogBuilder.setTitle("確認");
 
                 // AlertDialogのメッセージ設定
